@@ -27,6 +27,9 @@ public class UserService {
 
 
     public List<User> getAllUsers() {
+        User user = new User();
+        String email = user.getEmail();
+
         return userRepo.getAllUsers();
     }
 }

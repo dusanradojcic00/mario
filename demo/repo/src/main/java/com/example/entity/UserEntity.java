@@ -16,6 +16,7 @@ import javax.persistence.Id;
 @Accessors(chain = true)
 public class UserEntity {
     @Id
+
     private String id;
 
     private String username;
